@@ -416,6 +416,7 @@ form > div {
 }
 .section-head {
 	margin-bottom: 20px;
+	margin-left: 20px;
 }
 .section:nth-child(odd) form input,
 .section:nth-child(odd) form textarea {
@@ -570,11 +571,12 @@ h2:after,
 	flex-wrap: wrap;
 	list-style: none;
 	padding: 0;
-	margin: 0 -5px;
+	margin: 0 -10px;
+	justify-content: space-evenly;
 }
 .work-list .item {
 	width: 33.33%;
-	padding: 0 5px;
+	padding: 5px 5px;
 	margin-bottom: 10px;
 }
 .testimonials .slick-list * {
@@ -652,9 +654,10 @@ pre {
 	bottom: 5px;
 	left: 0;
 	right: 0;
-	width: 100%;
+	width: 97%;
 	background: #333333b3;
-	padding: 10px 20px;
+	padding: 10px 0px;
+	padding-left: 10px;
 	color: #fff;
 	text-shadow: 1px 1px 4px #333;
 }
@@ -738,14 +741,15 @@ pre {
 	display: flex;
 	cursor: pointer;
 }
-.work-list .item img {
-	width: 100% !important;
+
+.work-list .item .inner {
+	/* width: 100% !important; */
 	-webkit-transition: 0.3s all !important;
 	transition: 0.3s all !important;
 }
-.work-list .item .inner:hover img {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+.work-list .item .inner:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
 .blogs-list .item:nth-child(5n + 1),
 .blogs-list .item:nth-child(5n + 2) {
@@ -1045,4 +1049,8 @@ code {
 	.about-main .left .gatsby-image-wrapper {
 		height: 400px;
 	}
+}
+
+.container {
+	padding: 50px;
 }
