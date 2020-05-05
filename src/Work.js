@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './main-bg.jpg';
 import bg from './abstract-business-code-coder-270348.jpg';
+import data from './data.json';
 
 export default class Work extends Component {
 	render() {
@@ -11,46 +12,18 @@ export default class Work extends Component {
 						<h2 className="text-center">My Projets</h2>
 					</div>
 					<ul className="work-list">
-						<li className="item">
-							<div className="inner">
-								<a href="#">
-									<img src={bg} />
-									<span className="name">Add</span>
-								</a>
-							</div>
-						</li>
-						<li className="item">
-							<div className="inner">
-								<a href="#">
-									<img src={bg} />
-									<span className="name">Add</span>
-								</a>
-							</div>
-						</li>
-						<li className="item">
-							<div className="inner">
-								<a href="#">
-									<img src={logo} />
-									<span className="name">Add</span>
-								</a>
-							</div>
-						</li>
-						<li className="item">
-							<div className="inner">
-								<a href="#">
-									<img src={logo} />
-									<span className="name">Add</span>
-								</a>
-							</div>
-						</li>
-						<li className="item">
-							<div className="inner">
-								<a href="#">
-									<img src={logo} />
-									<span className="name">Add</span>
-								</a>
-							</div>
-						</li>
+						{data.map((item) => {
+							return (
+								<li className="item">
+									<div className="inner">
+										<a>
+											<img src={item.image} />
+											<span className="name">{item.name}</span>
+										</a>
+									</div>
+								</li>
+							);
+						})}
 						{/* {data.edges.map((item, index) => {
 							return (
 								<li key={index} className="item">

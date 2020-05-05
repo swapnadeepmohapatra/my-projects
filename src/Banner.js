@@ -13,7 +13,7 @@ const Banner = () => {
 						<li>Student</li>
 						<li>Designer</li>
 					</ul>
-					<span>View all of my projects here.</span>
+					<span>View all of my projects here...</span>
 				</div>
 			</div>
 		</div>
