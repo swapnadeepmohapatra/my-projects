@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import logo from './main-bg.jpg';
-import bg from './abstract-business-code-coder-270348.jpg';
 import data from './data.json';
 
 export default class Work extends Component {
