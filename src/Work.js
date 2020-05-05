@@ -14,7 +14,7 @@ export default class Work extends Component {
 							return (
 								<li className="item">
 									<div className="inner">
-										<a>
+										<a href={item.link} target="_blank">
 											<img src={item.image} />
 											<span className="name">{item.name}</span>
 										</a>

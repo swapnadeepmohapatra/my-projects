@@ -4,6 +4,7 @@ import Banner from './Banner';
 import Work from './Work';
 import Contact from './Contact';
 import About from './About';
+import Blog from './Blog';
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
 			<Banner />
 			<About />
 			<Work />
+			<Blog />
 			<Contact />
 		</div>
 	);

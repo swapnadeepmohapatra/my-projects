@@ -1,0 +1,26 @@
+[
+	{
+		"name": "How to get started with React Router",
+		"image": "https://res.cloudinary.com/practicaldev/image/fetch/s--g9X1MWBO--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--Wky2mZQu--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://dev-to-uploads.s3.amazonaws.com/i/43e4wao28djok594yk2a.png",
+		"date": "May 4",
+		"link": "https://dev.to/swapnadeepmohapatra/how-to-get-started-with-react-router-gck"
+	},
+	{
+		"name": "What is Redux?",
+		"image": "https://res.cloudinary.com/practicaldev/image/fetch/s--Szc8UMHe--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--Fm8jwyq5--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://dev-to-uploads.s3.amazonaws.com/i/8jjr63ifie2yk0vaeup3.png",
+		"date": "Mar 25",
+		"link": "https://dev.to/swapnadeepmohapatra/what-is-redux-42m1"
+	},
+	{
+		"name": "19 App Ideas for the Job Challenge",
+		"image": "https://res.cloudinary.com/practicaldev/image/fetch/s--bidqlpvW--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--LSoy5g7_--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://dev-to-uploads.s3.amazonaws.com/i/assysey9pwvxtowmuinj.png",
+		"date": "Mar 19",
+		"link": "https://dev.to/swapnadeepmohapatra/19-app-ideas-for-the-job-challenge-poo"
+	},
+	{
+		"name": "My Experience at Google Code-In 2019",
+		"image": "https://miro.medium.com/max/1400/1*49H0-pKB6zBZIAvxdDLnOw.png",
+		"date": "Jan 14",
+		"link": "https://medium.com/@swapnadeep456/my-experience-at-google-code-in-2019-e85ef9778822"
+	}
+]

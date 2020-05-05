@@ -28,15 +28,15 @@ const About = () => (
 							</li>
 							<li>
 								<strong style={{ color: '#ffffff' }}>Texh Stack</strong>
-								<p>Node.js, Express.js, IoT, RaspberryPi, Aruino</p>
+								<p>Node.js, Express.js, IoT, RaspberryPi, Arduino</p>
 							</li>
 							<li>
 								<strong style={{ color: '#ffffff' }}>Texh Stack</strong>
-								<p>HTML, CSS, QBasic</p>
+								<p>Python, HTML, CSS, QBasic</p>
 							</li>
 							<li>
 								<strong>Age</strong>
-								<p>16 Years</p>
+								<p>16 Years (17/04/2004)</p>
 							</li>
 							<li>
 								<strong>Location</strong>
