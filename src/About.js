@@ -3,8 +3,8 @@ import dp from './dp.jpg';
 
 const About = () => (
 	<div className="about section" id="About">
-		<div className="container">
-			<div className="about-main row" style={{ display: 'flex', flexDirection: 'row' }}>
+		<div className="abt-container">
+			<div className="about-main">
 				<div className="left col-md-5 col-lg-4 mb-3">
 					<img
 						objectFit="cover"
@@ -24,16 +24,32 @@ const About = () => (
 							</li>
 							<li>
 								<strong>Tech Stack</strong>
-								<p>JavaScript, Android (Java), React Native, React.js</p>
+								<ul
+									style={{
+										paddingLeft: 0,
+										display: 'flex',
+										flexDirection: 'column',
+									}}
+								>
+									<li>
+										<p>JavaScript, Android (Java), React Native, React.js</p>
+									</li>
+									<li>
+										<p>Node.js, Express.js, IoT, RaspberryPi, Arduino</p>
+									</li>
+									<li>
+										<p>Python, HTML, CSS, QBasic</p>
+									</li>
+								</ul>
 							</li>
-							<li>
+							{/* <li>
 								<strong style={{ color: '#ffffff' }}>Texh Stack</strong>
 								<p>Node.js, Express.js, IoT, RaspberryPi, Arduino</p>
 							</li>
 							<li>
 								<strong style={{ color: '#ffffff' }}>Texh Stack</strong>
 								<p>Python, HTML, CSS, QBasic</p>
-							</li>
+							</li> */}
 							<li>
 								<strong>Age</strong>
 								<p>16 Years (17/04/2004)</p>
