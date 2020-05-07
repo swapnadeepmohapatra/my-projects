@@ -10,9 +10,9 @@ export default class Work extends Component {
 						<h2 className="text-center">My Projets</h2>
 					</div>
 					<ul className="work-list">
-						{data.map((item) => {
+						{data.map((item, index) => {
 							return (
-								<li className="item">
+								<li className="item" key={index}>
 									<div className="inner">
 										<a href={item.link} target="_blank">
 											<img src={item.image} />

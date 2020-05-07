@@ -4,7 +4,7 @@ import logo from './main-bg.jpg';
 const Banner = () => {
 	return (
 		<div className="banner">
-			<img alt="" src={logo} objectFit="cover" objectPosition="50% 50%" />
+			<img alt="" src={logo} />
 			<div className="container">
 				<div className="banner-details">
 					<h1>I'm Swapnadeep.</h1>

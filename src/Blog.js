@@ -9,12 +9,12 @@ const Blog = () => {
 					<h2>Blogs</h2>
 				</div>
 				<ul className="work-list">
-					{data.map((item) => {
+					{data.map((item, index) => {
 						return (
-							<li className="item">
+							<li className="item" key={index}>
 								<div className="inner">
 									<a href={item.link} target="_blank">
-										<img src={item.image} objectFit="cover" objectPosition="50% 50%" />
+										<img src={item.image} />
 										<h3 className="title">{item.name}</h3>
 										<span className="date">
 											<i className="fas fa-calendar-alt"></i>

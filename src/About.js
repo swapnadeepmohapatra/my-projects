@@ -6,12 +6,7 @@ const About = () => (
 		<div className="abt-container">
 			<div className="about-main">
 				<div className="left col-md-5 col-lg-4 mb-3">
-					<img
-						objectFit="cover"
-						objectPosition="top center"
-						src={dp}
-						style={{ height: 300, width: 300, marginRight: 20 }}
-					/>
+					<img src={dp} style={{ height: 300, width: 300, marginRight: 20 }} alt="Profile" />
 				</div>
 				<div className="left col-md-7 col-lg-8">
 					<div className="about-details">
