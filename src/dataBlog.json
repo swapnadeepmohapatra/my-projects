@@ -1,5 +1,11 @@
 [
 	{
+		"name": "useEffect()- React Hooks",
+		"image": "https://res.cloudinary.com/practicaldev/image/fetch/s--wQZjCNhf--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--wbL69dFs--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://dev-to-uploads.s3.amazonaws.com/i/0gz8bjtdwnxy711wx8qj.png",
+		"date": "May 14",
+		"link": "https://dev.to/swapnadeepmohapatra/useeffect-react-hooks-25fb"
+	},
+	{
 		"name": "How to get started with React Router",
 		"image": "https://res.cloudinary.com/practicaldev/image/fetch/s--g9X1MWBO--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--Wky2mZQu--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://dev-to-uploads.s3.amazonaws.com/i/43e4wao28djok594yk2a.png",
 		"date": "May 4",
