@@ -1,47 +1,74 @@
 [
-	{
-		"name": "TINDEV",
-		"link": "https://tindev.swapnadeep.com/",
-		"image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/tindev_new.png?alt=media&token=9bf85a2c-fe2b-4386-8be2-9a8f29204c4d"
-	},
-	{
-		"name": "E-COMMERCE",
-		"link": "http://ecom.swapnadeep.com/",
-		"image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/ecom.png?alt=media&token=fcf19a5d-ab94-4486-b7b0-49a6825da49a"
-	},
-	{
-		"name": "ABHINAV PORTFOLIO",
-		"link": "http://abhinav-photo.netlify.com/",
-		"image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/abhinav.png?alt=media&token=3782a27d-1d80-4a1d-8913-69443850d915"
-	},
-	{
-		"name": "PLANET WEIGHT",
-		"link": "https://play.google.com/store/apps/details?id=com.swapnadeep.planet.weight",
-		"image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/planetWeight.png?alt=media&token=b1d80b65-5803-49aa-81e0-28e31c9ad507"
-	},
-	{
-		"name": "IMAGE-AUTO-SCROLL",
-		"link": "https://www.npmjs.com/package/image-auto-scroll",
-		"image": "https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-	},
-	{
-		"name": "FIELD SCAN",
-		"link": "https://fieldscan.netlify.com/",
-		"image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/fieldScan.png?alt=media&token=61e2d800-c6af-4230-8d92-b8c5f6ba41ed"
-	},
-	{
-		"name": "LIVE CORONA TRACKER",
-		"link": "https://corona.swapnadeep.com/",
-		"image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/coronaStat.png?alt=media&token=2a5ac837-e0d7-465d-9013-407c1baf42b2"
-	},
-	{
-		"name": "MEME MAKER",
-		"link": "https://meme.swapnadeep.com/",
-		"image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/memeMaker.png?alt=media&token=f721be6e-37fc-4ee5-8430-7ff9720d1843"
-	},
-	{
-		"name": "DRIVE WELL",
-		"link": "https://swapnadeep.com/",
-		"image": "https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-	}
+  {
+    "id": "001",
+    "name": "DEVTUBE",
+    "link": "https://devtube.swapnadeep.com/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/devtube.png?alt=media&token=0fdb2d84-1505-4dbf-ba7b-d554eea4c322",
+    "desc": "This is an app that allow users to watch videos, like or dislike them, put comments on the video, and also can subscribe to channels. Also on hovering over the thumbnail, the video is played so that the user can decide to click on it to watch or not.",
+    "stack": "MongoDB is used for the database, Firebase is used to store the video and image assests, Node.js and Express.js for the Backend and React.js for the frontend. Pure CSS is used to design the UI with a bit of Material UI for the side drawers."
+  },
+  {
+    "id": "002",
+    "name": "TINDEV",
+    "link": "https://tindev.swapnadeep.com/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/tindev_new.png?alt=media&token=9bf85a2c-fe2b-4386-8be2-9a8f29204c4d",
+    "desc": "Researching co-worker is something difficult. Tindev offers you the opportunity to simply accelerate the process by finding out which is the best match. With this you can login with your github ID and you can swipe through differnt devs and if two devs like each other then they match and they can chat over this app. Through this they can get the best co-worker for them and may be the co-founder for a big firm.",
+    "stack": "MongoDB is used for the database, Node.js and Express.js for the Backend, React.js for the frontend and Socket.io is used for Real-Time Communication."
+  },
+  {
+    "id": "003",
+    "name": "E-COMMERCE",
+    "link": "http://ecom.swapnadeep.com/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/ecom.png?alt=media&token=fcf19a5d-ab94-4486-b7b0-49a6825da49a",
+    "desc": "This is an app that enables you to buy gadgets. It has featues like Authentication, Cart, Payment Option, etc. You can view the detailed description of the product after clicking on it. On hovering over the product image, you can get a zoomed view of the product.",
+    "stack": "MongoDB is used for the database, Node.js and Express.js for the Backend and React.js for the frontend."
+  },
+  {
+    "id": "004",
+    "name": "ABHINAV PORTFOLIO",
+    "link": "http://abhinav-photo.netlify.com/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/abhinav.png?alt=media&token=3782a27d-1d80-4a1d-8913-69443850d915",
+    "desc": "A react.js Portfolio Website. This is made for a great photographer Abhinav Patnaik. The images are fetched dynamically from the firebase realtime database.",
+    "stack": "React.js is used for the frontend. Firebase is used for the backend database. Materializecss is used for the design."
+  },
+  {
+    "id": "005",
+    "name": "PLANET WEIGHT",
+    "link": "https://play.google.com/store/apps/details?id=com.swapnadeep.planet.weight",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/planetWeight.png?alt=media&token=b1d80b65-5803-49aa-81e0-28e31c9ad507",
+    "desc": "A fun react native app to get your weight to on differnt planets.",
+    "stack": "Made in React Native, Written in JavaScript."
+  },
+  {
+    "id": "006",
+    "name": "IMAGE-AUTO-SCROLL",
+    "link": "https://www.npmjs.com/package/image-auto-scroll",
+    "image": "https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "desc": "A simple React Native component that implements Auto Scrolling Image Carousel.",
+    "stack": "Made for React Native. Written in JavaScript."
+  },
+  {
+    "id": "007",
+    "name": "FIELD SCAN",
+    "link": "https://fieldscan.netlify.com/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/fieldScan.png?alt=media&token=61e2d800-c6af-4230-8d92-b8c5f6ba41ed",
+    "desc": "A set of 3 apps that helps in finding the travel history of people. One app is with the businesses that will scan the QR code present in the second app which is with the visitors. With the help of the website the official can monitor the history of the citizens as well as of the places.",
+    "stack": "Two apps made with React Native. The website is made with React.js. And firebase is used as the backend database."
+  },
+  {
+    "id": "008",
+    "name": "LIVE CORONA TRACKER",
+    "link": "https://corona.swapnadeep.com/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/coronaStat.png?alt=media&token=2a5ac837-e0d7-465d-9013-407c1baf42b2",
+    "desc": "A react.js web app to keep an eye on the cases of COVID-19.",
+    "stack": "Made in React.js, Written in JavaScript"
+  },
+  {
+    "id": "009",
+    "name": "MEME MAKER",
+    "link": "https://meme.swapnadeep.com/",
+    "image": "https://firebasestorage.googleapis.com/v0/b/swapnadeep-blog.appspot.com/o/memeMaker.png?alt=media&token=f721be6e-37fc-4ee5-8430-7ff9720d1843",
+    "desc": "A HTML5 Website. This is used to make memes.",
+    "stack": "HTML5, Vanila.js, Bootstrap"
+  }
 ]
